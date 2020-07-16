@@ -1,0 +1,11 @@
+server:
+  port: 8880
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///${user.home}/Desktop/workspace/apps/microservices/config-repo
